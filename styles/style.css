@@ -1,0 +1,65 @@
+/* Default styles */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background-color: #E55473;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.primary-btn:hover{
+    background-color: #e6355c;
+}
+
+/* header section styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related styles */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .banner-content {
+    width: 525px;
+}
+
+.banner .banner-content * {
+    margin-bottom: 32px;
+}
+
+.banner .banner-content h1 {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.banner .banner-image img {
+    width: 100%;
+}
