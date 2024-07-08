@@ -187,3 +187,19 @@ header, #hot-deal {
 .hot-deals .hot-deal-image img{
     width: 100%;
 }
+
+/* instagram section styles */
+#instagram .section-heading{
+    margin-bottom: 48px;
+}
+.instagram-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.instagram-images .image img{
+    width: 100%;
+    border-radius: 2px;
+}
