@@ -128,3 +128,25 @@ header {
     text-decoration-line: underline;
     margin-top: 24px;
 }
+
+.items {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    padding: 64px 0;
+}
+
+.items .item img {
+    margin-bottom: 18px;
+}
+
+.items .item .item-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
