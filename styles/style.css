@@ -46,12 +46,13 @@
     line-height: 30px;
 }
 
-.primary-color{
+.primary-color {
     color: #E55473;
 }
 
 /* header section styles */
-header, #hot-deal {
+header,
+#hot-deal {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -180,46 +181,50 @@ header, #hot-deal {
     font-weight: 800;
     margin-bottom: 24px;
 }
+
 .hot-deals .hot-deal-content p {
     margin-bottom: 32px;
 }
 
-.hot-deals .hot-deal-image img{
+.hot-deals .hot-deal-image img {
     width: 100%;
 }
 
 /* instagram section styles */
-#instagram{
+#instagram {
     margin-bottom: 128px;
 }
-#instagram .section-heading{
+
+#instagram .section-heading {
     margin-bottom: 48px;
 }
-.instagram-images{
+
+.instagram-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
 
-.instagram-images .image img{
+.instagram-images .image img {
     width: 100%;
     border-radius: 2px;
 }
 
 /* subscribe section styles */
-.subscribe{
+.subscribe {
     background-image: url("../assets/Rectangle 9.png");
     background-repeat: no-repeat;
     padding: 122px 0;
     border-radius: 8px;
+    margin-bottom: 128px;
 }
 
-.subscribe .section-heading{
+.subscribe .section-heading {
     margin-bottom: 48px;
 }
 
-.subscribe-form{
+.subscribe-form {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -228,11 +233,47 @@ header, #hot-deal {
     margin: 0 auto;
 }
 
-.subscribe-form input{
+.subscribe-form input {
     width: 100%;
     border-radius: 8px;
     color: rgba(39, 39, 39, 0.60);
     padding: 22px;
     border: 0;
     outline: 0;
+}
+
+/* footer styles */
+footer {
+    background: #111010;
+    padding: 128px 0;
+}
+
+.footer-content {
+    width: 500px;
+    max-width: 625px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.footer-content h2 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 800;
+
+    & .primary-color{
+        color: #E55473;
+    }
+}
+
+.footer-content p.paragraph {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+}
+
+.footer-content span {
+    color: rgba(255, 255, 255, 0.40);
 }
