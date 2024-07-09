@@ -189,6 +189,9 @@ header, #hot-deal {
 }
 
 /* instagram section styles */
+#instagram{
+    margin-bottom: 128px;
+}
 #instagram .section-heading{
     margin-bottom: 48px;
 }
@@ -202,4 +205,34 @@ header, #hot-deal {
 .instagram-images .image img{
     width: 100%;
     border-radius: 2px;
+}
+
+/* subscribe section styles */
+.subscribe{
+    background-image: url("../assets/Rectangle 9.png");
+    background-repeat: no-repeat;
+    padding: 122px 0;
+    border-radius: 8px;
+}
+
+.subscribe .section-heading{
+    margin-bottom: 48px;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 800px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.subscribe-form input{
+    width: 100%;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.60);
+    padding: 22px;
+    border: 0;
+    outline: 0;
 }
